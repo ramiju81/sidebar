@@ -1,0 +1,9 @@
+
+
+pip install locust
+
+locust -f locustfile.py --host http://localhost:9080
+
+python3 -m venv test-st/
+
+./test-st/
